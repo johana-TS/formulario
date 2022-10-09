@@ -33,6 +33,7 @@ h1{
     margin: auto;
     max-width: 460px;
     max-height: 100vw;
+    
 }
 
 button {
@@ -45,6 +46,7 @@ button {
     box-shadow: 2px 2px 10px rgba(0,0,0,0.7);
     color: black;
     background-color: darkturquoise;
+    margin: auto;
 }
 
 button:hover{
@@ -92,4 +94,9 @@ input, textarea{
 textarea:hover{
     color: black;
     background-color:whitesmoke;
+}
+.section_btn{
+    
+    width: 100%;
+    margin: auto;
 }
