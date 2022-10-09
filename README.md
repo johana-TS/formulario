@@ -1,2 +1,2 @@
 # formulario
-formulario para contactar con la empresa.
+formulario para contactar con una empresa.
