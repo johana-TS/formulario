@@ -112,6 +112,25 @@ textarea:hover{
     text-align: center;
     margin-top: 10px;
 }
+.conteiner_body{
+    /* background-color: beige; */
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+@media only screen and (max-width: 576px) {
+  
+    .conteiner_body{
+       
+        margin: 20px auto;
+        padding: 10px;
+        row-gap: 25px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+  }
 .section_form{
     margin: auto;
     width: auto;
@@ -124,16 +143,7 @@ textarea:hover{
     width: 100%;
     margin: auto;
 }
-.section_map{
-    background-color: beige;
-    margin: 20px auto;
-    padding: 10px;
-    width: 90%;
-    display: grid;
-    grid-template-columns: 50% 50%;
 
-
-}
 iframe{
     width: 100%;
 
