@@ -17,7 +17,7 @@ const validarFormulario = (e) => {
     switch (e.target.name){
         case "apellido":
             if (expresiones.apyno.test(e.target.value)){
-            console.log("caractervalido");
+            console.log("caracter valido");
             /*COLOCAR STYLE EXP. https://www.youtube.com/watch?v=s3pC93LgP18*/
             }else{
                 console.log("carecter invalido");

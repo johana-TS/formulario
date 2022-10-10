@@ -1,26 +1,37 @@
-/**{
+*{
     box-sizing: border-box;
-}*/
+}
 
-body{
-    margin: 0;
+/* body{
+ 
+    width: auto;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
-    max-width: 480px;
+    max-width: 480px; 
     background-color: aquamarine;
     background-image: url("img/form-fondo.png");
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
     display: block;
+} */
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    background-color: aquamarine;
+    background-image: url("img/form-fondo.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    
 }
 
-section {
+/* section {
     margin: 0px;
     max-width: 100vw;
     max-height: 100vw;
     padding: 10px 10px;
-}
+} */
 
 h1{
     font-size: 3em;
@@ -95,8 +106,36 @@ textarea:hover{
     color: black;
     background-color:whitesmoke;
 }
+
+/* //----------mis modificaciones----------------// */
+.titulo2{
+    text-align: center;
+    margin-top: 10px;
+}
+.section_form{
+    margin: auto;
+    width: auto;
+    padding: 5px;
+    
+  
+}
 .section_btn{
     
     width: 100%;
     margin: auto;
+}
+.section_map{
+    background-color: beige;
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+
+}
+iframe{
+    width: 100%;
+
+    
 }
